@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { makeStyles } from "@mui/styles";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
@@ -17,11 +16,11 @@ const useStyles = makeStyles({
   }
 });
 
-const DropDownSelect = ({ handleOnChange, value, options, disabledList }) => {
+const DropDownSelect = ({ handleOnChange, value, options, disabledList, className }) => {
   const classes = useStyles();
 
   return (
-    <FormControl fullWidth classes={{ root: classes.select }}>
+    <FormControl fullWidth classes={{ root: `${classes.select} ${className}` }}>
       <Select
         MenuProps={{
           PaperProps: { sx: { maxHeight: 240 } },

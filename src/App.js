@@ -9,7 +9,8 @@ const useStyles = makeStyles({
     display: "flex",
     flexDirection: "column",
     padding: "0 10%",
-    minHeight: "100%",
+    height: "100vh",
+    overflow: 'scroll',
   },
 });
 
