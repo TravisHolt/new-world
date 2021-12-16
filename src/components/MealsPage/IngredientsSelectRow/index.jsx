@@ -1,4 +1,4 @@
-import { Checkbox, FormControlLabel, Typography } from "@mui/material";
+import { Checkbox, FormControlLabel } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import DropDownSelect from "../Select";
 

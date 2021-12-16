@@ -60,8 +60,7 @@ const useMealsPageLogic = () => {
     } else {
       setMealsWithIngredients([]);
     }
-  }, [activeIngredients, activeAttributes.length]);
-
+  }, [activeIngredients, activeAttributes]);
 
   return {
     ingredients,
