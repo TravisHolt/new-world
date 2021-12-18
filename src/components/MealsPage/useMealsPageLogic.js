@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { ingredientsList, mealsData } from "../../constants";
+import { ingredientsList } from "../../constants/ingredients";
+import { mealsData } from "../../constants/mealsData";
 
 const useMealsPageLogic = () => {
   const [activeIngredients, setActiveIngredients] = useState({
@@ -17,7 +18,6 @@ const useMealsPageLogic = () => {
 
   const addToIngredientsList = (index) => (event) => {
     const value = event.target.value;
-    console.log(index, value);
     setActiveIngredients((state) => ({
       ...state,
       [index]: value,
@@ -42,19 +42,20 @@ const useMealsPageLogic = () => {
       arr2.every(item => arr1.includes(item));
 
     if (hasIngredients) {
-      const findMealsWithIngredients = mealsData.filter((meal) => {
+      const findMealsWithIngredients = Object.values(mealsData).filter((meal) => {
         const ings = Object.values(meal);
         return(compareArraysForLikeValues(ings, ingredientsList));
       });
 
       if (activeAttributes.length > 0) {
-        const test = findMealsWithIngredients.filter(meal => {
+        const mealsWithSelectedAttribute = findMealsWithIngredients.filter(meal => {
           const stats = meal.stat.toLowerCase().split(' ');
           return compareArraysForLikeValues(stats, activeAttributes)
         });
-        console.log(test);
-        setMealsWithIngredients(test)
+        // set meals that include ingredients and attributes
+        setMealsWithIngredients(mealsWithSelectedAttribute)
       } else {
+        // return meals that include ingredients
         setMealsWithIngredients(findMealsWithIngredients)
       }
     } else {
@@ -64,9 +65,9 @@ const useMealsPageLogic = () => {
 
   return {
     ingredients,
+    activeAttributes,
     activeIngredients,
     mealsWithIngredients,
-    activeAttributes,
     handleAttributeChange,
     addToIngredientsList,
   };

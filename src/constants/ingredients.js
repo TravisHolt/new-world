@@ -1,4 +1,4 @@
-const ingredientsList = [
+export const ingredientsList = [
   "Abaia Serpe",
   "Albenaja",
   "Apple",
@@ -180,5 +180,3 @@ const ingredientsList = [
   "Wheat",
   "Yeast",
 ];
-
-export default ingredientsList;

@@ -23,7 +23,10 @@ const MealsPage = () => {
         handleAttributeChange={handleAttributeChange}
         activeAttributes={activeAttributes}
       />
-      <MealsList mealsList={mealsWithIngredients} />
+      <MealsList
+        mealsList={mealsWithIngredients}
+        activeIngredients={activeIngredients}
+      />
     </div>
   );
 };

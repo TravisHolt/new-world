@@ -1,5 +1,5 @@
-const mealsData = [
-  {
+export const mealsData = {
+  meatpie: {
     tier: "Tier 2",
     stat: "10 Dexterity",
     lvl: "Lv. 27",
@@ -12,7 +12,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  shootersandwich: {
     tier: "Tier 2",
     stat: "6 Dexterity and 4 Strength",
     lvl: "Lv. 26",
@@ -25,7 +25,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  roastporkshank: {
     tier: "Tier 2",
     stat: "6 Dexterity and 4 Intelligence",
     lvl: "Lv. 28",
@@ -38,7 +38,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  poachedfishwithlemonanddill: {
     tier: "Tier 2",
     stat: "6 Dexterity and 4 Constitution",
     lvl: "Lv. 29",
@@ -51,7 +51,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  applepie: {
     tier: "Tier 2",
     stat: "6 Dexterity and 4 Focus",
     lvl: "Lv. 30",
@@ -64,7 +64,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  honeyedmelon: {
     tier: "Tier 3",
     stat: "20 Dexterity",
     lvl: "Lv. 77",
@@ -77,7 +77,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  citrustart: {
     tier: "Tier 3",
     stat: "12 Dexterity and 8 Strength",
     lvl: "Lv.",
@@ -90,7 +90,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  coconutcustard: {
     tier: "Tier 3",
     stat: "12 Dexterity and 8 Intelligence",
     lvl: "Lv.",
@@ -103,7 +103,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  roastedgamebirdwithberryglaze: {
     tier: "Tier 3",
     stat: "12 Dexterity and 8 Constitution",
     lvl: "Lv.",
@@ -116,7 +116,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  cheesecake: {
     tier: "Tier 3",
     stat: "12 Dexterity and 8 Focus",
     lvl: "Lv.",
@@ -129,7 +129,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  seafoodbisque: {
     tier: "Tier 4",
     stat: "30 Dexterity",
     lvl: "Lv. 127",
@@ -142,7 +142,7 @@ const mealsData = [
     in6: "Paprika",
     in7: "",
   },
-  {
+  frenchtoast: {
     tier: "Tier 4",
     stat: "18 Dexterity and 12 Strength",
     lvl: "Lv. 126",
@@ -155,7 +155,7 @@ const mealsData = [
     in6: "Butter",
     in7: "",
   },
-  {
+  roastedwolfloin: {
     tier: "Tier 4",
     stat: "18 Dexterity and 12 Intelligence",
     lvl: "Lv. 128",
@@ -168,7 +168,7 @@ const mealsData = [
     in6: "Thyme",
     in7: "",
   },
-  {
+  filetwithmintandcrackedbarley: {
     tier: "Tier 4",
     stat: "18 Dexterity and 12 Constitution",
     lvl: "Lv. 129",
@@ -181,7 +181,7 @@ const mealsData = [
     in6: "Peppercorn",
     in7: "",
   },
-  {
+  paella: {
     tier: "Tier 4",
     stat: "18 Dexterity and 12 Focus",
     lvl: "Lv. 130",
@@ -194,7 +194,7 @@ const mealsData = [
     in6: "Onion",
     in7: "",
   },
-  {
+  friedalbenaja: {
     tier: "Tier 5",
     stat: "40 Dexterity",
     lvl: "Lv. 177",
@@ -207,7 +207,7 @@ const mealsData = [
     in6: "Flour",
     in7: "Egg",
   },
-  {
+  fallharvestturkey: {
     tier: "Tier 5",
     stat: "24 Dexterity and 16 Strength",
     lvl: "Lv. 176",
@@ -220,7 +220,7 @@ const mealsData = [
     in6: "Sage",
     in7: "Thyme",
   },
-  {
+  "poacher'spie": {
     tier: "Tier 5",
     stat: "24 Dexterity and 16 Intelligence",
     lvl: "Lv. 178",
@@ -233,7 +233,7 @@ const mealsData = [
     in6: "Cooking Oil",
     in7: "Seasoning Blend",
   },
-  {
+  rabbitstew: {
     tier: "Tier 5",
     stat: "24 Dexterity and 16 Constitution",
     lvl: "Lv. 179",
@@ -246,7 +246,7 @@ const mealsData = [
     in6: "Rosemary",
     in7: "Sage",
   },
-  {
+  carbonara: {
     tier: "Tier 5",
     stat: "24 Dexterity and 16 Focus",
     lvl: "Lv. 180",
@@ -259,7 +259,7 @@ const mealsData = [
     in6: "Peppercorn",
     in7: "Cooking Oil",
   },
-  {
+  porkchopsandapplesauce: {
     tier: "Tier 2",
     stat: "10 Strength",
     lvl: "Lv. 21",
@@ -272,7 +272,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  garlicsteak: {
     tier: "Tier 2",
     stat: "6 Strength and 4 Dexterity",
     lvl: "Lv. 22",
@@ -285,7 +285,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  roastedcarrotswithdill: {
     tier: "Tier 2",
     stat: "6 Strength and 4 Intelligence",
     lvl: "Lv. 23",
@@ -298,7 +298,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  cheesybroccolisoup: {
     tier: "Tier 2",
     stat: "6 Strength and 4 Constitution",
     lvl: "Lv. 24",
@@ -311,7 +311,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  fruitsalad: {
     tier: "Tier 2",
     stat: "6 Strength and 4 Focus",
     lvl: "Lv. 25",
@@ -324,7 +324,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  supremeomelet: {
     tier: "Tier 3",
     stat: "20 Strength",
     lvl: "Lv. 71",
@@ -337,7 +337,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  friedcalamari: {
     tier: "Tier 3",
     stat: "12 Strength and 8 Dexterity",
     lvl: "Lv.",
@@ -350,7 +350,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  stuffedsquash: {
     tier: "Tier 3",
     stat: "12 Strength and 8 Intelligence",
     lvl: "Lv.",
@@ -363,7 +363,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  steakwithmushroomgravy: {
     tier: "Tier 3",
     stat: "12 Strength and 8 Constitution",
     lvl: "Lv.",
@@ -376,7 +376,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  blueberrypie: {
     tier: "Tier 3",
     stat: "12 Strength and 8 Focus",
     lvl: "Lv. 75",
@@ -389,7 +389,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  clamchowder: {
     tier: "Tier 4",
     stat: "30 Strength",
     lvl: "Lv. 121",
@@ -402,7 +402,7 @@ const mealsData = [
     in6: "Garlic",
     in7: "",
   },
-  {
+  venisonroast: {
     tier: "Tier 4",
     stat: "18 Strength and 12 Dexterity",
     lvl: "Lv. 122",
@@ -415,7 +415,7 @@ const mealsData = [
     in6: "Onion",
     in7: "",
   },
-  {
+  pestostuffedturkeybreast: {
     tier: "Tier 4",
     stat: "18 Strength and 12 Intelligence",
     lvl: "Lv. 123",
@@ -428,7 +428,7 @@ const mealsData = [
     in6: "Garlic",
     in7: "",
   },
-  {
+  bearflankpinwheels: {
     tier: "Tier 4",
     stat: "18 Strength and 12 Constitution",
     lvl: "Lv. 124",
@@ -441,7 +441,7 @@ const mealsData = [
     in6: "Salt",
     in7: "",
   },
-  {
+  fishandchips: {
     tier: "Tier 4",
     stat: "18 Strength and 12 focus",
     lvl: "Lv. 125",
@@ -454,7 +454,7 @@ const mealsData = [
     in6: "Salt",
     in7: "",
   },
-  {
+  roastedgnufish: {
     tier: "Tier 5",
     stat: "40 Strength",
     lvl: "Lv. 171",
@@ -467,7 +467,7 @@ const mealsData = [
     in6: "Carrot",
     in7: "Rosemary",
   },
-  {
+  baconwrappedscallops: {
     tier: "Tier 5",
     stat: "24 Strength and 16 Dexterity",
     lvl: "Lv. 172",
@@ -480,7 +480,7 @@ const mealsData = [
     in6: "Lemon",
     in7: "Garlic",
   },
-  {
+  spaghettibolognese: {
     tier: "Tier 5",
     stat: "24 Strength and 16 Intelligence",
     lvl: "Lv. 173",
@@ -493,7 +493,7 @@ const mealsData = [
     in6: "Garlic",
     in7: "Oregano",
   },
-  {
+  carrotcake: {
     tier: "Tier 5",
     stat: "24 Strength and 16 Constitution",
     lvl: "Lv. 174",
@@ -506,7 +506,7 @@ const mealsData = [
     in6: "Cinnamon",
     in7: "Nutmeg",
   },
-  {
+  honeyroastedham: {
     tier: "Tier 5",
     stat: "24 Strength and 16 Focus",
     lvl: "Lv. 175",
@@ -519,7 +519,7 @@ const mealsData = [
     in6: "Salt",
     in7: "Orange",
   },
-  {
+  venisonpotroast: {
     tier: "Tier 2",
     stat: "10 Focus",
     lvl: "Lv. 45",
@@ -532,7 +532,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  venisonjerky: {
     tier: "Tier 2",
     stat: "6 Focus and 4 Strength",
     lvl: "Lv. 41",
@@ -545,7 +545,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  fishwithtarragonandoregano: {
     tier: "Tier 2",
     stat: "6 Focus and 4 Dexterity",
     lvl: "Lv. 42",
@@ -558,7 +558,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  meloncrèmetart: {
     tier: "Tier 2",
     stat: "6 Focus and 4 Intelligence",
     lvl: "Lv. 43",
@@ -571,7 +571,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  gamemeatskewers: {
     tier: "Tier 2",
     stat: "6 Focus and 4 Constitution",
     lvl: "Lv. 44",
@@ -584,7 +584,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  bakedfishfilet: {
     tier: "Tier 3",
     stat: "20 Focus",
     lvl: "Lv. 95",
@@ -597,7 +597,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  grilledporkwithspicedsquash: {
     tier: "Tier 3",
     stat: "12 Focus and 8 Strength",
     lvl: "Lv. 91",
@@ -610,7 +610,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  deepfriedpoultry: {
     tier: "Tier 3",
     stat: "12 Focus and 8 Dexterity",
     lvl: "Lv.",
@@ -623,7 +623,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  fruitsaladwithtoastedcoconut: {
     tier: "Tier 3",
     stat: "12 Focus and 8 Intelligence",
     lvl: "Lv.",
@@ -636,7 +636,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  onionsmotheredpork: {
     tier: "Tier 3",
     stat: "12 Focus and 8 Constitution",
     lvl: "Lv. 94",
@@ -649,7 +649,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  turkeypotpie: {
     tier: "Tier 4",
     stat: "30 Focus",
     lvl: "Lv. 145",
@@ -662,7 +662,7 @@ const mealsData = [
     in6: "Milk",
     in7: "",
   },
-  {
+  caviarcrostini: {
     tier: "Tier 4",
     stat: "18 Focus and 12 Strength",
     lvl: "Lv. 141",
@@ -675,7 +675,7 @@ const mealsData = [
     in6: "Cooking Oil",
     in7: "",
   },
-  {
+  berryglazedroastedham: {
     tier: "Tier 4",
     stat: "18 Focus and 12 Dexterity",
     lvl: "Lv. 142",
@@ -688,7 +688,7 @@ const mealsData = [
     in6: "Butter",
     in7: "",
   },
-  {
+  cordonbleu: {
     tier: "Tier 4",
     stat: "18 Focus and 12 Intelligence",
     lvl: "Lv. 143",
@@ -701,7 +701,7 @@ const mealsData = [
     in6: "Thyme",
     in7: "",
   },
-  {
+  orangethymeturkeybreast: {
     tier: "Tier 4",
     stat: "18 Focus and 12 Constitution",
     lvl: "Lv. 144",
@@ -714,7 +714,7 @@ const mealsData = [
     in6: "Onion",
     in7: "",
   },
-  {
+  blackenedmandjemandjewithcornsuccotash: {
     tier: "Tier 5",
     stat: "40 Focus",
     lvl: "Lv. 195",
@@ -727,7 +727,7 @@ const mealsData = [
     in6: "String Bean",
     in7: "Butter",
   },
-  {
+  butterpoachedoystersonangelhair: {
     tier: "Tier 5",
     stat: "24 Focus and 16 Strength",
     lvl: "Lv. 191",
@@ -740,7 +740,7 @@ const mealsData = [
     in6: "Mushroom",
     in7: "Parsley",
   },
-  {
+  roastedturkeythigh: {
     tier: "Tier 5",
     stat: "24 Focus and 16 Dexterity",
     lvl: "Lv. 192",
@@ -753,7 +753,7 @@ const mealsData = [
     in6: "Sage",
     in7: "Peppercorn",
   },
-  {
+  venisontenderloinwithblueberryglaze: {
     tier: "Tier 5",
     stat: "24 Focus and 16 Intelligence",
     lvl: "Lv. 193",
@@ -766,7 +766,7 @@ const mealsData = [
     in6: "Salt",
     in7: "Peppercorn",
   },
-  {
+  slowroastedbearflankwithrootvegetables: {
     tier: "Tier 5",
     stat: "24 Focus and 16 Constitution",
     lvl: "Lv. 194",
@@ -779,7 +779,7 @@ const mealsData = [
     in6: "Carrot",
     in7: "Potato",
   },
-  {
+  tarragonpoultrysliders: {
     tier: "Tier 2",
     stat: "10 Constitution",
     lvl: "Lv. 39",
@@ -792,7 +792,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  searedvenisonsteak: {
     tier: "Tier 2",
     stat: "6 Constitution and 4 Strength",
     lvl: "Lv. 36",
@@ -805,7 +805,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  spicedmelonpie: {
     tier: "Tier 2",
     stat: "6 Constitution and 4 Dexterity",
     lvl: "Lv. 37",
@@ -818,7 +818,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  butterpoachedgame: {
     tier: "Tier 2",
     stat: "6 Constitution and 4 Intelligence",
     lvl: "Lv. 38",
@@ -831,7 +831,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  gamestuffedappleswithmushrooms: {
     tier: "Tier 2",
     stat: "6 Constitution and 4 Focus",
     lvl: "Lv. 40",
@@ -844,7 +844,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  gamemeatwithcitrusglaze: {
     tier: "Tier 3",
     stat: "20 Constitution",
     lvl: "Lv.",
@@ -857,7 +857,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  coconutcrustedfishfilet: {
     tier: "Tier 3",
     stat: "12 Constitution and 8 Strength",
     lvl: "Lv. 86",
@@ -870,7 +870,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  ravioliwithbrownbutterandsage: {
     tier: "Tier 3",
     stat: "12 Constitution and 8 Dexterity",
     lvl: "Lv.",
@@ -883,7 +883,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  porkchopswithpangravy: {
     tier: "Tier 3",
     stat: "12 Constitution and 8 Intelligence",
     lvl: "Lv.",
@@ -896,7 +896,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  grilledpoultrywithsaffronrice: {
     tier: "Tier 3",
     stat: "12 Constitution and 8 Focus",
     lvl: "Lv.",
@@ -909,7 +909,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  stuffedcalamari: {
     tier: "Tier 4",
     stat: "30 Constitution",
     lvl: "Lv. 139",
@@ -922,7 +922,7 @@ const mealsData = [
     in6: "Garlic",
     in7: "",
   },
-  {
+  grilledwolfloinwithseasonedsquash: {
     tier: "Tier 4",
     stat: "18 Constitution and 12 Strength",
     lvl: "Lv. 136",
@@ -935,7 +935,7 @@ const mealsData = [
     in6: "Ginger",
     in7: "",
   },
-  {
+  blueberryglazedhamhockwithsteamedvegetables: {
     tier: "Tier 4",
     stat: "18 Constitution and 12 Dexterity",
     lvl: "Lv. 137",
@@ -948,7 +948,7 @@ const mealsData = [
     in6: "Cauliflower",
     in7: "",
   },
-  {
+  turkeyandstuffingwithmushroomgravy: {
     tier: "Tier 4",
     stat: "18 Constitution and 12 Intelligence",
     lvl: "Lv. 138",
@@ -961,7 +961,7 @@ const mealsData = [
     in6: "Berry",
     in7: "Seasoning Blend",
   },
-  {
+  wolfloinmeatpies: {
     tier: "Tier 4",
     stat: "18 Constitution and 12 Focus",
     lvl: "Lv. 140",
@@ -974,7 +974,7 @@ const mealsData = [
     in6: "Oregano",
     in7: "",
   },
-  {
+  roastedrabbitwithseasonedvegetables: {
     tier: "Tier 5",
     stat: "40 Constitution",
     lvl: "Lv. 189",
@@ -987,7 +987,7 @@ const mealsData = [
     in6: "Tarragon",
     in7: "Oregano",
   },
-  {
+  turkeythighwithpangravyandspicedwildberries: {
     tier: "Tier 5",
     stat: "24 Constitution and 16 Strength",
     lvl: "Lv. 186",
@@ -1000,7 +1000,7 @@ const mealsData = [
     in6: "Berry",
     in7: "Seasoning Blend",
   },
-  {
+  blackedrayfinnedbarbwithfondantpotatoesandbarley: {
     tier: "Tier 5",
     stat: "24 Constitution and 16 Dexterity",
     lvl: "Lv. 187",
@@ -1013,7 +1013,7 @@ const mealsData = [
     in6: "Thyme",
     in7: "Barley",
   },
-  {
+  porkbellyfriedrice: {
     tier: "Tier 5",
     stat: "24 Constitution and 16 Intelligence",
     lvl: "Lv. 188",
@@ -1026,7 +1026,7 @@ const mealsData = [
     in6: "Garlic",
     in7: "Salt",
   },
-  {
+  smokedribcapwithcabbageandbarleysoup: {
     tier: "Tier 5",
     stat: "24 Constitution and 16 Focus",
     lvl: "Lv. 190",
@@ -1039,7 +1039,7 @@ const mealsData = [
     in6: "Onion",
     in7: "Seasoning Blend",
   },
-  {
+  blackenedfishfilet: {
     tier: "Tier 2",
     stat: "10 Intelligence",
     lvl: "Lv. 33",
@@ -1052,7 +1052,7 @@ const mealsData = [
     in6: "Thyme",
     in7: "Barley",
   },
-  {
+  campfirestew: {
     tier: "Tier 2",
     stat: "6 Intelligence and 4 Strength",
     lvl: "Lv. 31",
@@ -1065,7 +1065,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  garlicrosemarypoultry: {
     tier: "Tier 2",
     stat: "6 Intelligence and 4 Dexterity",
     lvl: "Lv. 32",
@@ -1078,7 +1078,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  fishwithtomatoandbasil: {
     tier: "Tier 2",
     stat: "6 Intelligence and 4 Constitution",
     lvl: "Lv. 34",
@@ -1091,7 +1091,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  sausagewithcreamedcorn: {
     tier: "Tier 2",
     stat: "6 Intelligence and 4 Focus",
     lvl: "Lv. 35",
@@ -1104,7 +1104,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  stuffedporkchop: {
     tier: "Tier 3",
     stat: "20 Intelligence",
     lvl: "Lv.",
@@ -1117,7 +1117,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  cornedbeefandcabbage: {
     tier: "Tier 3",
     stat: "12 Intelligence and 8 Strength",
     lvl: "Lv.",
@@ -1130,7 +1130,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  venisonstroganoff: {
     tier: "Tier 3",
     stat: "12 Intelligence and 8 Dexterity",
     lvl: "Lv.",
@@ -1143,7 +1143,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  meatloaf: {
     tier: "Tier 3",
     stat: "12 Intelligence and 8 Constitution",
     lvl: "Lv.",
@@ -1156,7 +1156,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  fishcakes: {
     tier: "Tier 3",
     stat: "12 Intelligence and 8 Focus",
     lvl: "Lv.",
@@ -1169,7 +1169,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  calamariandtomatostrew: {
     tier: "Tier 4",
     stat: "30 Intelligence",
     lvl: "Lv. 133",
@@ -1182,7 +1182,7 @@ const mealsData = [
     in6: "Cooking Oil",
     in7: "",
   },
-  {
+  venisontenderloinwithherbbutter: {
     tier: "Tier 4",
     stat: "18 Intelligence and 12 Strength",
     lvl: "Lv. 131",
@@ -1195,7 +1195,7 @@ const mealsData = [
     in6: "Rosemary",
     in7: "",
   },
-  {
+  braisedwolfloin: {
     tier: "Tier 4",
     stat: "18 Intelligence and 12 Dexterity",
     lvl: "Lv. 132",
@@ -1208,7 +1208,7 @@ const mealsData = [
     in6: "Honey",
     in7: "",
   },
-  {
+  turkeybreastwithcranberryglaze: {
     tier: "Tier 4",
     stat: "18 Intelligence and 12 Constitution",
     lvl: "Lv. 134",
@@ -1221,7 +1221,7 @@ const mealsData = [
     in6: "Thyme",
     in7: "",
   },
-  {
+  saltedhamwithapplebutter: {
     tier: "Tier 4",
     stat: "18 Intelligence and 12 Focus",
     lvl: "Lv. 135",
@@ -1234,7 +1234,7 @@ const mealsData = [
     in6: "Honey",
     in7: "",
   },
-  {
+  steamedabaiaserpe: {
     tier: "Tier 5",
     stat: "40 Intelligence",
     lvl: "Lv. 183",
@@ -1247,7 +1247,7 @@ const mealsData = [
     in6: "Butter",
     in7: "Corn",
   },
-  {
+  squidinkpastawithclams: {
     tier: "Tier 5",
     stat: "24 Intelligence and 16 Strength",
     lvl: "Lv. 181",
@@ -1260,7 +1260,7 @@ const mealsData = [
     in6: "Parsley",
     in7: "Sage",
   },
-  {
+  filetinmushroomsauce: {
     tier: "Tier 5",
     stat: "24 Intelligence and 16 Dexterity",
     lvl: "Lv. 182",
@@ -1273,7 +1273,7 @@ const mealsData = [
     in6: "Parsley",
     in7: "Onion",
   },
-  {
+  stuffedvenisontenderloin: {
     tier: "Tier 5",
     stat: "24 Intelligence and 16 Focus",
     lvl: "Lv. 185",
@@ -1286,7 +1286,7 @@ const mealsData = [
     in6: "Sage",
     in7: "Thyme",
   },
-  {
+  glazedbearwithsauteedvegetables: {
     tier: "Tier 5",
     stat: "24 Intelligence and 16 Constitution",
     lvl: "Lv. 184",
@@ -1299,7 +1299,7 @@ const mealsData = [
     in6: "Onion",
     in7: "Cooking Oil",
   },
-  {
+  meloninfusion: {
     tier: "Tier 3",
     stat: "10",
     lvl: "Lv. 52",
@@ -1312,7 +1312,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  sweetfruittrifle: {
     tier: "Tier 4",
     stat: "12",
     lvl: "Lv. 102",
@@ -1325,7 +1325,7 @@ const mealsData = [
     in6: "Cinnamon",
     in7: "",
   },
-  {
+  glazedmelonbread: {
     tier: "Tier 5",
     stat: "15",
     lvl: "Lv. 152",
@@ -1338,7 +1338,7 @@ const mealsData = [
     in6: "Cooking Oil",
     in7: "Ginger",
   },
-  {
+  honeybrew: {
     tier: "Tier 3",
     stat: "10",
     lvl: "Lv. 55",
@@ -1351,7 +1351,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  stronghoneybrew: {
     tier: "Tier 4",
     stat: "12",
     lvl: "Lv. 105",
@@ -1364,7 +1364,7 @@ const mealsData = [
     in6: "Butter",
     in7: "",
   },
-  {
+  spicycabbagesoup: {
     tier: "Tier 5",
     stat: "15",
     lvl: "Lv. 155",
@@ -1377,7 +1377,7 @@ const mealsData = [
     in6: "Cauliflower",
     in7: "String Bean",
   },
-  {
+  wildberrycompote: {
     tier: "Tier 3",
     stat: "10",
     lvl: "Lv. 54",
@@ -1390,7 +1390,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  berrybrew: {
     tier: "Tier 4",
     stat: "12",
     lvl: "Lv. 104",
@@ -1403,7 +1403,7 @@ const mealsData = [
     in6: "Blueberry",
     in7: "",
   },
-  {
+  sweetwildberryinfusion: {
     tier: "Tier 5",
     stat: "15",
     lvl: "Lv. 154",
@@ -1416,7 +1416,7 @@ const mealsData = [
     in6: "Strawberry",
     in7: "Blueberry",
   },
-  {
+  herbcrustedbroccoli: {
     tier: "Tier 3",
     stat: "10",
     lvl: "Lv. 51",
@@ -1429,7 +1429,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  roastedvegetablemedley: {
     tier: "Tier 4",
     stat: "12",
     lvl: "Lv. 101",
@@ -1442,7 +1442,7 @@ const mealsData = [
     in6: "Cooking Oil",
     in7: "",
   },
-  {
+  savoryvegetablemedley: {
     tier: "Tier 5",
     stat: "15",
     lvl: "Lv. 151",
@@ -1455,7 +1455,7 @@ const mealsData = [
     in6: "String Bean",
     in7: "Cauliflower",
   },
-  {
+  herbroastedsquash: {
     tier: "Tier 3",
     stat: "10",
     lvl: "Lv. 53",
@@ -1468,7 +1468,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  creamedcorn: {
     tier: "Tier 4",
     stat: "12",
     lvl: "Lv. 103",
@@ -1481,7 +1481,7 @@ const mealsData = [
     in6: "Basil",
     in7: "",
   },
-  {
+  herbcrustedvegetables: {
     tier: "Tier 5",
     stat: "15",
     lvl: "Lv. 153",
@@ -1494,7 +1494,7 @@ const mealsData = [
     in6: "Cooking Oil",
     in7: "String Bean",
   },
-  {
+  cookedcorn: {
     tier: "Tier 1",
     stat: "1000",
     lvl: "Lv. 8",
@@ -1507,7 +1507,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  cornbread: {
     tier: "Tier 2",
     stat: "1400",
     lvl: "Lv. 18",
@@ -1520,7 +1520,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  herbcrustedcornonthecob: {
     tier: "Tier 3",
     stat: "1700",
     lvl: "Lv. 57",
@@ -1533,7 +1533,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  breakfastbread: {
     tier: "Tier 4",
     stat: "1900",
     lvl: "Lv. 107",
@@ -1546,7 +1546,7 @@ const mealsData = [
     in6: "Tomato",
     in7: "",
   },
-  {
+  spicysteakpie: {
     tier: "Tier 5",
     stat: "2000",
     lvl: "Lv. 157",
@@ -1559,7 +1559,7 @@ const mealsData = [
     in6: "Carrot",
     in7: "String Bean",
   },
-  {
+  roastedcarrots: {
     tier: "Tier 1",
     stat: "1000",
     lvl: "Lv. 9",
@@ -1572,7 +1572,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  herbroastedcarrots: {
     tier: "Tier 2",
     stat: "1400",
     lvl: "Lv. 19",
@@ -1585,7 +1585,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  carrotsoup: {
     tier: "Tier 3",
     stat: "1700",
     lvl: "Lv.",
@@ -1598,7 +1598,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  vegetableboil: {
     tier: "Tier 4",
     stat: "1900",
     lvl: "Lv. 108",
@@ -1611,7 +1611,7 @@ const mealsData = [
     in6: "Cooking Oil",
     in7: "",
   },
-  {
+  savoryfishcake: {
     tier: "Tier 5",
     stat: "2000",
     lvl: "Lv. 158",
@@ -1624,7 +1624,7 @@ const mealsData = [
     in6: "Butter",
     in7: "Rosemary",
   },
-  {
+  roastedpotatoes: {
     tier: "Tier 1",
     stat: "1000",
     lvl: "Lv. 7",
@@ -1637,7 +1637,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  herbroastedpotatoes: {
     tier: "Tier 2",
     stat: "1400",
     lvl: "Lv. 17",
@@ -1650,7 +1650,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  boiledpotatoes: {
     tier: "Tier 3",
     stat: "1700",
     lvl: "Lv. 56",
@@ -1663,7 +1663,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  poultrywithroastedpotatoes: {
     tier: "Tier 4",
     stat: "1900",
     lvl: "Lv. 106",
@@ -1676,7 +1676,7 @@ const mealsData = [
     in6: "Butter",
     in7: "",
   },
-  {
+  saltedroastedvegetables: {
     tier: "Tier 5",
     stat: "2000",
     lvl: "Lv. 156",
@@ -1689,7 +1689,7 @@ const mealsData = [
     in6: "Parsley",
     in7: "Oregano",
   },
-  {
+  roastedcabbage: {
     tier: "Tier 1",
     stat: "1000",
     lvl: "Lv. 10",
@@ -1702,7 +1702,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  boiledcabbage: {
     tier: "Tier 2",
     stat: "1400",
     lvl: "Lv. 20",
@@ -1715,7 +1715,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  herbroastedcabbage: {
     tier: "Tier 3",
     stat: "1700",
     lvl: "Lv.",
@@ -1728,7 +1728,7 @@ const mealsData = [
     in6: "",
     in7: "",
   },
-  {
+  cabbagewrappedroastedfish: {
     tier: "Tier 4",
     stat: "1900",
     lvl: "Lv. 109",
@@ -1741,7 +1741,7 @@ const mealsData = [
     in6: "Cauliflower",
     in7: "",
   },
-  {
+  saltedpoultrywithcabbage: {
     tier: "Tier 5",
     stat: "2000",
     lvl: "Lv. 159",
@@ -1754,6 +1754,4 @@ const mealsData = [
     in6: "String Bean",
     in7: "Seasoning Blend",
   },
-];
-
-export default mealsData;
+};
