@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-newworld-dev-230120-authRole",
+      "UnauthRoleArn": "arn:aws:iam::733656686375:role/amplify-newworld-dev-230120-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::733656686375:role/amplify-newworld-dev-230120-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-newworld-dev-230120-deployment",
+      "UnauthRoleName": "amplify-newworld-dev-230120-unauthRole",
+      "StackName": "amplify-newworld-dev-230120",
+      "StackId": "arn:aws:cloudformation:us-east-1:733656686375:stack/amplify-newworld-dev-230120/b6355510-6088-11ec-94a7-0af6d09e2aab",
+      "AmplifyAppId": "d3ejcqygslbjcd"
+    }
+  }
+}
