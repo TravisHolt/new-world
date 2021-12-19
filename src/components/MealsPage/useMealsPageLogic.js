@@ -4,13 +4,13 @@ import { mealsData } from '../../constants/mealsData';
 
 const useMealsPageLogic = () => {
   const [activeIngredients, setActiveIngredients] = useState({
-    0: "",
-    1: "",
-    2: "",
-    3: "",
-    4: "",
-    5: "",
-    6: "",
+    0: null,
+    1: null,
+    2: null,
+    3: null,
+    4: null,
+    5: null,
+    6: null,
   });
   const [mealsWithIngredients, setMealsWithIngredients] = useState([]);
   const [activeAttributes, setActiveAttributes] = useState([]);
@@ -25,7 +25,7 @@ const useMealsPageLogic = () => {
     } else {
       setActiveIngredients((state) => ({
         ...state,
-        [index]: ''
+        [index]: null
       }));
     }
   };
@@ -39,9 +39,7 @@ const useMealsPageLogic = () => {
   };
 
   useEffect(() => {
-    const ingredientsList = Object.values(activeIngredients).filter(
-      (i) => i !== ""
-    );
+    const ingredientsList = Object.values(activeIngredients).filter(i => i);
     const hasIngredients = ingredientsList.length > 0;
 
     const compareArraysForLikeValues = (arr1, arr2) => 

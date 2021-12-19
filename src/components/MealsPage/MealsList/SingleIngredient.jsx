@@ -47,6 +47,7 @@ const SingleIngredient = ({ ingredient, activeIngredients }) => {
         setIngredientImage(image);
       }
     } catch (err) {
+      console.log(`${ingredient} is missing from images list`);
       setIngredientImage(null);
     }
   }, []);
