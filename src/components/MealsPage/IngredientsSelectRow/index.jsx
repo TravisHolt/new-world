@@ -75,8 +75,6 @@ const ItemRow = ({
     "constitution",
   ];
 
-  console.log(activeIngredients)
-
   return (
     <div className={classes.container}>
       <div className={classes.grid}>

@@ -1,3 +1,4 @@
+import { useMediaQuery } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import { Routes, Route } from "react-router-dom";
 import MealsPage from "./components/MealsPage";
@@ -12,18 +13,35 @@ const useStyles = makeStyles({
     height: "100vh",
     overflow: 'scroll',
   },
+  sadge: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    color: 'white',
+    fontSize: '2rem',
+    height: '100vh'
+  }
 });
 
 const App = () => {
   const classes = useStyles();
+  const isDesktop = useMediaQuery('(min-width:1200px)');
 
-  return (
-    <div className={classes.container}>
-      <Routes>
-        <Route path="/" element={<MealsPage />} />
-      </Routes>
-    </div>
-  );
+  if (isDesktop) {
+    return (
+      <div className={classes.container}>
+        <Routes>
+          <Route path="/" element={<MealsPage />} />
+        </Routes>
+      </div>
+    );
+  } else {
+    return (
+      <div className={classes.container}>
+        <div className={classes.sadge}> No mobile site yet :( </div>
+      </div>
+    )
+  }
 };
 
 export default App;
