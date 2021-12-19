@@ -41,8 +41,9 @@ const SingleIngredient = ({ ingredient, activeIngredients }) => {
         .split(" ")
         .join("")
         .toLowerCase();
+
       if (ingredientImageName !== "") {
-        const image = require(`../../../assets/ingredientImages/${ingredientImageName}.png`).default;
+        const image = require(`../../../assets/ingredientsImages/${ingredientImageName}.png`);
         setIngredientImage(image);
       }
     } catch (err) {

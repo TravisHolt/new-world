@@ -72,7 +72,7 @@ const MealRow = ({ mealInfo, activeIngredients }) => {
     try {
       const imageName = meal.replace("-", "").split(" ").join("").toLowerCase();
       const image =
-        require(`../../../assets/mealImages/${imageName}.png`).default;
+        require(`../../../assets/mealImages/${imageName}.png`);
       setImagePath(image);
     } catch (err) {
       console.log(meal);
@@ -92,9 +92,10 @@ const MealRow = ({ mealInfo, activeIngredients }) => {
         </div>
       </div>
       <div className={classes.ingredientsContainer}>
-        {ingredientsList.map((ing) => (
-          <SingleIngredient key={ing} ingredient={ing} activeIngredients={activeIngredients} />
+        {ingredientsList.map((ing, index) => (
+          <SingleIngredient key={`${ing}-${index}`} ingredient={ing} activeIngredients={activeIngredients} />
         ))}
+
       </div>
     </div>
   );
