@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { ingredientsList } from "../../constants/ingredients";
-import { mealsData } from "../../constants/mealsData";
+import { mealsData } from '../../constants/mealsData';
 
 const useMealsPageLogic = () => {
   const [activeIngredients, setActiveIngredients] = useState({

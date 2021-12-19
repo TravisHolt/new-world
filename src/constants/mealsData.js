@@ -716,7 +716,7 @@ export const mealsData = {
   },
   blackenedmandjemandjewithcornsuccotash: {
     tier: "Tier 5",
-    stat: "40 Focus",
+    stat: "Clam",
     lvl: "Lv. 195",
     meal: "Blackened Mandje Mandje with Corn Succotash",
     in1: "Lava Barb",
@@ -1301,7 +1301,7 @@ export const mealsData = {
   },
   meloninfusion: {
     tier: "Tier 3",
-    stat: "10",
+    stat: "10 Jewelcrafting",
     lvl: "Lv. 52",
     meal: "Melon Infusion",
     in1: "Melon",
@@ -1314,7 +1314,7 @@ export const mealsData = {
   },
   sweetfruittrifle: {
     tier: "Tier 4",
-    stat: "12",
+    stat: "12 Jewelcrafting",
     lvl: "Lv. 102",
     meal: "Sweet Fruit Trifle",
     in1: "Melon",
@@ -1327,7 +1327,7 @@ export const mealsData = {
   },
   glazedmelonbread: {
     tier: "Tier 5",
-    stat: "15",
+    stat: "15 Jewelcrafting",
     lvl: "Lv. 152",
     meal: "Glazed Melon Bread",
     in1: "Melon",
@@ -1340,7 +1340,7 @@ export const mealsData = {
   },
   honeybrew: {
     tier: "Tier 3",
-    stat: "10",
+    stat: "10 Armoring",
     lvl: "Lv. 55",
     meal: "Honey Brew",
     in1: "Barley",
@@ -1353,7 +1353,7 @@ export const mealsData = {
   },
   stronghoneybrew: {
     tier: "Tier 4",
-    stat: "12",
+    stat: "12 Armoring",
     lvl: "Lv. 105",
     meal: "Strong Honey Brew",
     in1: "Barley",
@@ -1366,7 +1366,7 @@ export const mealsData = {
   },
   spicycabbagesoup: {
     tier: "Tier 5",
-    stat: "15",
+    stat: "15 Armoring",
     lvl: "Lv. 155",
     meal: "Spicy Cabbage Soup",
     in1: "Barley",
@@ -1379,7 +1379,7 @@ export const mealsData = {
   },
   wildberrycompote: {
     tier: "Tier 3",
-    stat: "10",
+    stat: "10 Arcana",
     lvl: "Lv. 54",
     meal: "Wild Berry Compote",
     in1: "Berry",
@@ -1392,7 +1392,7 @@ export const mealsData = {
   },
   berrybrew: {
     tier: "Tier 4",
-    stat: "12",
+    stat: "12 Arcana",
     lvl: "Lv. 104",
     meal: "Berry Brew",
     in1: "Berry",
@@ -1405,7 +1405,7 @@ export const mealsData = {
   },
   sweetwildberryinfusion: {
     tier: "Tier 5",
-    stat: "15",
+    stat: "15 Arcana",
     lvl: "Lv. 154",
     meal: "Sweet Wild Berry Infusion",
     in1: "Berry",
@@ -1418,7 +1418,7 @@ export const mealsData = {
   },
   herbcrustedbroccoli: {
     tier: "Tier 3",
-    stat: "10",
+    stat: "10 Weaponsmithing",
     lvl: "Lv. 51",
     meal: "Herb-Crusted Broccoli",
     in1: "Broccoli",
@@ -1431,7 +1431,7 @@ export const mealsData = {
   },
   roastedvegetablemedley: {
     tier: "Tier 4",
-    stat: "12",
+    stat: "12 Weaponsmithing",
     lvl: "Lv. 101",
     meal: "Roasted Vegetable Medley",
     in1: "Broccoli",
@@ -1444,7 +1444,7 @@ export const mealsData = {
   },
   savoryvegetablemedley: {
     tier: "Tier 5",
-    stat: "15",
+    stat: "15 Weaponsmithing",
     lvl: "Lv. 151",
     meal: "Savory Vegetable Medley",
     in1: "Broccoli",
@@ -1457,7 +1457,7 @@ export const mealsData = {
   },
   herbroastedsquash: {
     tier: "Tier 3",
-    stat: "10",
+    stat: "10 Engineering",
     lvl: "Lv. 53",
     meal: "Herb-Roasted Squash",
     in1: "Squash",
@@ -1470,7 +1470,7 @@ export const mealsData = {
   },
   creamedcorn: {
     tier: "Tier 4",
-    stat: "12",
+    stat: "12 Engineering",
     lvl: "Lv. 103",
     meal: "Creamed Corn",
     in1: "Squash",
@@ -1483,7 +1483,7 @@ export const mealsData = {
   },
   herbcrustedvegetables: {
     tier: "Tier 5",
-    stat: "15",
+    stat: "15 Engineering",
     lvl: "Lv. 153",
     meal: "Herb-Crusted Vegetables",
     in1: "Squash",
@@ -1496,7 +1496,7 @@ export const mealsData = {
   },
   cookedcorn: {
     tier: "Tier 1",
-    stat: "1000",
+    stat: "1000 Harvesting",
     lvl: "Lv. 8",
     meal: "Cooked Corn",
     in1: "Corn",
@@ -1509,7 +1509,7 @@ export const mealsData = {
   },
   cornbread: {
     tier: "Tier 2",
-    stat: "1400",
+    stat: "1400 Harvesting",
     lvl: "Lv. 18",
     meal: "Cornbread",
     in1: "Corn",
@@ -1522,7 +1522,7 @@ export const mealsData = {
   },
   herbcrustedcornonthecob: {
     tier: "Tier 3",
-    stat: "1700",
+    stat: "1700 Harvesting",
     lvl: "Lv. 57",
     meal: "Herb-Crusted Corn on the Cob",
     in1: "Corn",
@@ -1535,7 +1535,7 @@ export const mealsData = {
   },
   breakfastbread: {
     tier: "Tier 4",
-    stat: "1900",
+    stat: "1900 Harvesting",
     lvl: "Lv. 107",
     meal: "Breakfast Bread",
     in1: "Corn",
@@ -1548,7 +1548,7 @@ export const mealsData = {
   },
   spicysteakpie: {
     tier: "Tier 5",
-    stat: "2000",
+    stat: "2000 Harvesting",
     lvl: "Lv. 157",
     meal: "Spicy Steak Pie",
     in1: "Corn",
@@ -1561,7 +1561,7 @@ export const mealsData = {
   },
   roastedcarrots: {
     tier: "Tier 1",
-    stat: "1000",
+    stat: "1000 Skinning",
     lvl: "Lv. 9",
     meal: "Roasted Carrots",
     in1: "Carrot",
@@ -1574,7 +1574,7 @@ export const mealsData = {
   },
   herbroastedcarrots: {
     tier: "Tier 2",
-    stat: "1400",
+    stat: "1400 Skinning",
     lvl: "Lv. 19",
     meal: "Herb-Roasted Carrots",
     in1: "Carrot",
@@ -1587,7 +1587,7 @@ export const mealsData = {
   },
   carrotsoup: {
     tier: "Tier 3",
-    stat: "1700",
+    stat: "1700 Skinning",
     lvl: "Lv.",
     meal: "Carrot Soup",
     in1: "Carrot",
@@ -1600,7 +1600,7 @@ export const mealsData = {
   },
   vegetableboil: {
     tier: "Tier 4",
-    stat: "1900",
+    stat: "1900 Skinning",
     lvl: "Lv. 108",
     meal: "Vegetable Boil",
     in1: "Carrot",
@@ -1613,7 +1613,7 @@ export const mealsData = {
   },
   savoryfishcake: {
     tier: "Tier 5",
-    stat: "2000",
+    stat: "2000 Skinning",
     lvl: "Lv. 158",
     meal: "Savory Fish Cake",
     in1: "Carrot",
@@ -1626,7 +1626,7 @@ export const mealsData = {
   },
   roastedpotatoes: {
     tier: "Tier 1",
-    stat: "1000",
+    stat: "1000 Minning",
     lvl: "Lv. 7",
     meal: "Roasted Potatoes",
     in1: "Potato",
@@ -1639,7 +1639,7 @@ export const mealsData = {
   },
   herbroastedpotatoes: {
     tier: "Tier 2",
-    stat: "1400",
+    stat: "1400 Minning",
     lvl: "Lv. 17",
     meal: "Herb-Roasted Potatoes",
     in1: "Potato",
@@ -1652,7 +1652,7 @@ export const mealsData = {
   },
   boiledpotatoes: {
     tier: "Tier 3",
-    stat: "1700",
+    stat: "1700 Minning",
     lvl: "Lv. 56",
     meal: "Boiled Potatoes",
     in1: "Potato",
@@ -1665,7 +1665,7 @@ export const mealsData = {
   },
   poultrywithroastedpotatoes: {
     tier: "Tier 4",
-    stat: "1900",
+    stat: "1900 Minning",
     lvl: "Lv. 106",
     meal: "Poultry with Roasted Potatoes",
     in1: "Potato",
@@ -1678,7 +1678,7 @@ export const mealsData = {
   },
   saltedroastedvegetables: {
     tier: "Tier 5",
-    stat: "2000",
+    stat: "2000 Minning",
     lvl: "Lv. 156",
     meal: "Salted Roasted Vegetables",
     in1: "Potato",
@@ -1691,7 +1691,7 @@ export const mealsData = {
   },
   roastedcabbage: {
     tier: "Tier 1",
-    stat: "1000",
+    stat: "1000 Logging",
     lvl: "Lv. 10",
     meal: "Roasted Cabbage",
     in1: "Cabbage",
@@ -1704,7 +1704,7 @@ export const mealsData = {
   },
   boiledcabbage: {
     tier: "Tier 2",
-    stat: "1400",
+    stat: "1400 Logging",
     lvl: "Lv. 20",
     meal: "Boiled Cabbage",
     in1: "Cabbage",
@@ -1717,7 +1717,7 @@ export const mealsData = {
   },
   herbroastedcabbage: {
     tier: "Tier 3",
-    stat: "1700",
+    stat: "1700 Logging",
     lvl: "Lv.",
     meal: "Herb-Roasted Cabbage",
     in1: "Cabbage",
@@ -1730,7 +1730,7 @@ export const mealsData = {
   },
   cabbagewrappedroastedfish: {
     tier: "Tier 4",
-    stat: "1900",
+    stat: "1900 Logging",
     lvl: "Lv. 109",
     meal: "Cabbage-Wrapped Roasted Fish",
     in1: "Cabbage",
@@ -1743,7 +1743,7 @@ export const mealsData = {
   },
   saltedpoultrywithcabbage: {
     tier: "Tier 5",
-    stat: "2000",
+    stat: "2000 Logging",
     lvl: "Lv. 159",
     meal: "Salted Poultry with Cabbage",
     in1: "Cabbage",
