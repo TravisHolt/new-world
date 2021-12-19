@@ -1,51 +1,48 @@
+import { Popper, TextField } from "@mui/material";
+import Autocomplete from "@mui/material/Autocomplete";
 import { makeStyles } from "@mui/styles";
-import FormControl from "@mui/material/FormControl";
-import Select from "@mui/material/Select";
-import MenuItem from "@mui/material/MenuItem";
 
 const useStyles = makeStyles({
-  select: {
-    display: "flex",
-    "& .MuiSelect-select": {
-      backgroundColor: "white",
-      color: 'black'
-    },
+  popper: {
+    width: 'fit-content',
   },
-  menuPaper: {
-    maxHeight: '40px'
-  }
 });
 
-const DropDownSelect = ({ handleOnChange, value, options, disabledList, className }) => {
+const MyPopper = (props) => {
   const classes = useStyles();
+  return (
+    <Popper {...props} className={classes.popper} />
+  )
+}
+
+const DropDownSelect = ({
+  handleOnChange,
+  value,
+  options,
+  disabledList,
+  selectIndex,
+  label
+}) => {
 
   return (
-    <FormControl fullWidth classes={{ root: `${classes.select} ${className}` }}>
-      <Select
-        MenuProps={{
-          PaperProps: { sx: { maxHeight: 240 } },
-          anchorOrigin: {
-            vertical: "bottom",
-            horizontal: "left",
-          },
-          transformOrigin: {
-            vertical: "top",
-            horizontal: "left",
-          },
-        }}
-        onChange={handleOnChange}
-        value={value}
-      >
-        <MenuItem value="">
-          <em>None</em>
-        </MenuItem>
-        {options.map((option) => (
-          <MenuItem disabled={disabledList.includes(option.value)} value={option.value}>
-            <em>{option.label}</em>
-          </MenuItem>
-        ))}
-      </Select>
-    </FormControl>
+    <Autocomplete
+      fullWidth
+      PopperComponent={MyPopper}
+      ListboxProps={{ style: { maxHeight: '15rem'}}}
+      value={value}
+      options={options}
+      getOptionDisabled={(option) => disabledList.includes(option.value)}
+      onChange={handleOnChange(selectIndex)}
+      renderInput={(params) => (
+        <TextField
+          {...params}
+          fullWidth
+          variant='filled'
+          label={label}
+          sx={{ background: 'white', borderRadius: '3px' }}
+        />
+      )}
+    />
   );
 };
 

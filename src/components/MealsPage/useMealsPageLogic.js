@@ -16,12 +16,18 @@ const useMealsPageLogic = () => {
   const [activeAttributes, setActiveAttributes] = useState([]);
   const ingredients = ingredientsList.map((i) => ({ value: i, label: i }));
 
-  const addToIngredientsList = (index) => (event) => {
-    const value = event.target.value;
-    setActiveIngredients((state) => ({
-      ...state,
-      [index]: value,
-    }));
+  const addToIngredientsList = (index) => (event, value) => {
+    if (value) {
+      setActiveIngredients((state) => ({
+        ...state,
+        [index]: value.value
+      }));
+    } else {
+      setActiveIngredients((state) => ({
+        ...state,
+        [index]: ''
+      }));
+    }
   };
 
   const handleAttributeChange = (attribute) => (event) => {

@@ -31,7 +31,6 @@ export const ingredientsList = [
   "Egg",
   "Firm Fish Filet",
   "Fish Filet",
-  "Fish Filet",
   "Fish Oil",
   "Fish Roe",
   "Flounder",

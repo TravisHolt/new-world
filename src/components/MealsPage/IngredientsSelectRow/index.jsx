@@ -75,6 +75,8 @@ const ItemRow = ({
     "constitution",
   ];
 
+  console.log(activeIngredients)
+
   return (
     <div className={classes.container}>
       <div className={classes.grid}>
@@ -87,13 +89,15 @@ const ItemRow = ({
             />
           ))}
         </div>
-        {Object.keys(activeIngredients).map((index) => (
+        {Object.keys(activeIngredients).map((_, index) => (
           <DropDownSelect
             className={classes.selectOptionsRow}
             value={activeIngredients[index]}
-            handleOnChange={onChange(index)}
+            handleOnChange={onChange}
             options={menuOptions}
             disabledList={Object.values(activeIngredients)}
+            selectIndex={index}
+            label={`Ingredient ${index + 1}`}
           />
         ))}
       </div>
